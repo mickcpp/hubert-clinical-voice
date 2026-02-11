@@ -736,12 +736,6 @@ self.augmentor = Compose([
 
 **File**: `results/YOUR_EXPERIMENT_NAME/cv_results.csv`
 
-| Fold | Val Accuracy | Val Balanced Acc | Val F1 | Val AUC | TN | FP | FN | TP |
-|------|--------------|------------------|--------|---------|----|----|----|----|
-| 1 | 0.8519 | 0.8462 | 0.8654 | 0.9091 | 9 | 2 | 2 | 14 |
-| 2 | 0.8889 | 0.8846 | 0.8958 | 0.9359 | 10 | 1 | 2 | 14 |
-| ... | ... | ... | ... | ... | ... | ... | ... | ... |
-
 ### Visualizations
 
 #### 1. Learning Curves (`learning_curves.png`)
