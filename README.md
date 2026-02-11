@@ -25,7 +25,7 @@
 
 ---
 
-## 🎯 Overview
+## Overview
 
 This repository contains the complete implementation of a **clinical voice analysis system** developed for a Bachelor's thesis, designed for the detection of neurodegenerative and cognitive disorders using speech biomarkers. The system leverages:
 
@@ -46,7 +46,7 @@ The code was designed for **Google Colab** execution with GPU acceleration (NVID
 
 ---
 
-## ✨ Features
+## Features
 
 ### Core Capabilities
 
@@ -71,7 +71,7 @@ RUN_XAI = False               # Explainability analysis
 
 ---
 
-## 🚀 Quick Start
+## Quick Start
 
 ### Option 1: Google Colab (Recommended)
 
@@ -93,7 +93,7 @@ RUN_XAI = False               # Explainability analysis
 
 ---
 
-## 📦 Installation
+## Installation
 
 ### Dependencies
 
@@ -126,7 +126,7 @@ pip install -r requirements.txt
 
 ---
 
-## 📊 Dataset Requirements
+## Dataset Requirements
 
 ### ⚠️ Privacy Notice
 
@@ -205,7 +205,7 @@ df['label'] = (df['Tipo soggetto'] == 'Diseased').astype(int)
 
 ---
 
-## ⚙️ Configuration
+## Configuration
 
 ### Experiment Setup (Cell "Setup experiment")
 
@@ -300,7 +300,7 @@ CONFIG = {
 
 ---
 
-## 🎓 Usage
+## Usage
 
 ### 1. Dataset Analysis (Optional)
 
@@ -388,7 +388,7 @@ Select different fold for XAI (see [Adapting to Your Data](#adapting-to-your-dat
 
 ---
 
-## 🏗️ Model Architecture
+## Model Architecture
 
 ### HuBERTClassifier
 
@@ -445,7 +445,7 @@ Each audio file undergoes:
 
 ---
 
-## 🚂 Training Pipeline
+## Training Pipeline
 
 ### 5-Fold Stratified Cross-Validation
 
@@ -530,7 +530,7 @@ scaler.update()
 
 ---
 
-## 🔍 Explainability (XAI)
+## Explainability (XAI)
 
 ### Integrated Gradients
 
@@ -730,7 +730,7 @@ self.augmentor = Compose([
 
 ---
 
-## 📈 Results & Outputs
+## Results & Outputs
 
 ### Cross-Validation Results
 
@@ -798,7 +798,7 @@ model.load_state_dict(checkpoint['model_state_dict'])
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 YOUR_PROJECT_FOLDER/
@@ -835,7 +835,7 @@ YOUR_PROJECT_FOLDER/
 
 ---
 
-## 🛠️ Troubleshooting
+## Troubleshooting
 
 ### Common Issues
 
